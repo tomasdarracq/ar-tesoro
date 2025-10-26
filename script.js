@@ -16,6 +16,6 @@ function checkProgress() {
     if (markersFound.size === 3) {
         const finalText = document.querySelector('#finalText');
         finalText.setAttribute('visible', true);
-        alert('🎉 ¡Encontraste todos los tesoros!');
+        alert(' ¡Encontraste todos los tesoros!');
     }
 }
